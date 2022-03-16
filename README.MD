@@ -5,6 +5,7 @@
 [![Npm](https://img.shields.io/npm/v/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
 [![License](https://img.shields.io/github/license/vodyani/eslint-config)](LICENSE)
+![Workflow](https://github.com/vodyani/eslint-config/actions/workflows/release.yml/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/vodyani/eslint-config/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/eslint-config?targetFile=package.json)
 
 ## Installation
