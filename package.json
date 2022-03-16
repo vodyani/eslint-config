@@ -28,13 +28,6 @@
   "main": "index.js",
   "scripts": {
     "install:all": "npm i && npx husky install",
-    "build": "rm -rf dist && tsc",
-    "lint": "eslint ./src ./test && tsc",
-    "lint:fix": "eslint --fix --ext .ts src/ test/",
-    "lint:report:html": "eslint ./src ./test -f html -o eslint-report.html",
-    "lint:report:json": "eslint ./src ./test -f json -o eslint-report.json",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
     "version:patch": "npm version patch && npm run version:tag && npm run version:commit",
     "version:minor": "npm version minor && npm run version:tag && npm run version:commit",
     "version:major": "npm version major && npm run version:tag && npm run version:commit",
