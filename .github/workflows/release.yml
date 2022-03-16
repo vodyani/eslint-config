@@ -5,11 +5,7 @@ on:
     branches: [release]
 
 jobs:
-  check:
-    uses: vodyani/workflows/.github/workflows/pre-check.yml@master
-
   publish_package:
-    needs: check
     uses: vodyani/workflows/.github/workflows/publish-npm-package.yml@master
     secrets:
       NPM_CI_TOKEN: ${{ secrets.NPM_CI_TOKEN }}
