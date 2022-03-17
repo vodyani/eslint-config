@@ -1,7 +1,7 @@
 {
   "name": "@vodyani/eslint-config",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "ChoGathK",
   "description": "📏 With a little preparation, the typescript eslint generic rules for vodyani may be readily integrated into projects.",
   "homepage": "https://github.com/vodyani/eslint-config#readme",
