@@ -29,8 +29,9 @@ npm install --save-dev @vodyani/eslint-config
 ## Dependencies
 
 - eslint `v8`
-- typescript-eslint `v5`
 - eslint-plugin-import `v2`
+- typescript-eslint/parser `v5`
+- typescript-eslint/eslint-plugin `v5`
 
 ## Contributing
 
