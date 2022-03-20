@@ -1,6 +1,6 @@
 # Vodyani eslint-config
 
-*📏 With a little preparation, the typescript eslint generic rules for vodyani may be readily integrated into projects.*
+*⚙ With a little preparation, the typescript eslint generic rules for vodyani may be readily integrated into projects.*
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
@@ -28,7 +28,7 @@ npm install --save-dev @vodyani/eslint-config
 
 ## Dependencies
 
-- eslint `v7`
+- eslint `v8`
 - typescript-eslint `v5`
 - eslint-plugin-import `v2`
 
