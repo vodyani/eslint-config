@@ -1,7 +1,7 @@
 {
   "name": "@vodyani/eslint-config",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ChoGathK",
   "description": "📏 With a little preparation, the typescript eslint generic rules for vodyani may be readily integrated into projects.",
   "homepage": "https://github.com/vodyani/eslint-config#readme",
@@ -38,20 +38,20 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.14.0",
-    "@typescript-eslint/parser": "5.14.0",
-    "eslint": "7.32.0",
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "eslint": "8.11.0",
     "eslint-plugin-import": "^2.25.4"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.14.0",
-    "@typescript-eslint/parser": "5.14.0",
-    "eslint": "7.32.0",
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "eslint": "8.11.0",
     "eslint-plugin-import": "^2.25.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
     "husky": "7.0.4"
   }
 }
