@@ -28,10 +28,10 @@ npm install --save-dev @vodyani/eslint-config
 
 ## Dependencies
 
-- eslint `v8`
-- eslint-plugin-import `v2`
-- typescript-eslint/parser `v5`
-- typescript-eslint/eslint-plugin `v5`
+- [eslint](https://github.com/eslint/eslint) `v8`
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) `v2`
+- [typescript-eslint/parser](https://github.com/eslint/typescript-eslint-parser) `v5`
+- [typescript-eslint/eslint-plugin](https://github.com/bradzacher/eslint-plugin-typescript) `v5`
 
 ## Contributing
 
