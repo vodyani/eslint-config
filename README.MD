@@ -33,18 +33,6 @@ npm install --save-dev @vodyani/eslint-config
 - [typescript-eslint/parser](https://github.com/eslint/typescript-eslint-parser) `v5`
 - [typescript-eslint/eslint-plugin](https://github.com/bradzacher/eslint-plugin-typescript) `v5`
 
-## Contributing
-
-- ❤ building
-
-## **Donations**
-
-- ❤ building
-
-## Links
-
-- ❤ building
-
 ## License
 
 Vodyani eslint-config is [MIT licensed](LICENSE).
