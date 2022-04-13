@@ -227,14 +227,7 @@
 				"ignoreRestSiblings": true
 			}
 		],
-		"no-use-before-define": [
-			"error",
-			{
-				"functions": false,
-				"classes": false,
-				"variables": false
-			}
-		],
+		"no-use-before-define": "off",
 		"callback-return": "off",
 		"global-require": "off",
 		"handle-callback-err": "error",
