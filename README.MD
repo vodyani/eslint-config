@@ -32,6 +32,12 @@ npm install --save-dev @vodyani/eslint-config
 - typescript-eslint/parser `v5`
 - typescript-eslint/eslint-plugin `v5`
 
+## Team
+
+|[![ChoGathK](https://github.com/chogathK.png?size=100)](https://github.com/chogathK)|
+|:-:|
+|[ChoGathK](https://github.com/chogathK)|
+
 ## License
 
 Vodyani eslint-config is [MIT licensed](LICENSE).
