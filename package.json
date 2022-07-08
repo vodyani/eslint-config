@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/vodyani/eslint-config.git"
   },
+  "bugs": {
+    "url": "https://github.com/vodyani/eslint-config/issues"
+  },
   "keywords": [
     "vodyani",
     "eslint",
@@ -16,9 +19,6 @@
     "javascript",
     "npm-package"
   ],
-  "bugs": {
-    "url": "https://github.com/vodyani/eslint-config/issues"
-  },
   "files": [
     "package.json",
     "README.MD",
@@ -28,15 +28,17 @@
   ],
   "main": "index.js",
   "scripts": {
-    "patch": "npm version patch",
-    "minor": "npm version minor",
-    "major": "npm version major",
-    "install:all": "npm i && npx husky install"
+    "local": "npm i && npx husky install",
+    "release": "npx semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "extends": "@vodyani/semantic-release"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": "@commitlint/config-conventional"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.19.0",
@@ -53,6 +55,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
+    "@vodyani/semantic-release": "^1.1.1",
     "husky": "7.0.4"
   }
 }

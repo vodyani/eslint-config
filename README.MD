@@ -6,7 +6,6 @@
 [![Npm](https://img.shields.io/npm/dm/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
 [![License](https://img.shields.io/github/license/vodyani/eslint-config)](LICENSE)
 ![Workflow](https://github.com/vodyani/eslint-config/actions/workflows/release.yml/badge.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/vodyani/eslint-config/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/eslint-config?targetFile=package.json)
 
 ## Installation
 
@@ -28,10 +27,10 @@ npm install --save-dev @vodyani/eslint-config
 
 ## Dependencies
 
-- [eslint](https://github.com/eslint/eslint) `v8`
-- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) `v2`
-- [typescript-eslint/parser](https://github.com/eslint/typescript-eslint-parser) `v5`
-- [typescript-eslint/eslint-plugin](https://github.com/bradzacher/eslint-plugin-typescript) `v5`
+- eslint `v8`
+- eslint-plugin-import `v2`
+- typescript-eslint/parser `v5`
+- typescript-eslint/eslint-plugin `v5`
 
 ## License
 
