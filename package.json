@@ -53,8 +53,8 @@
     "eslint-plugin-import": "^2.25.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
-    "@commitlint/config-conventional": "16.2.1",
+    "@commitlint/cli": "16.3.0",
+    "@commitlint/config-conventional": "16.2.4",
     "@vodyani/semantic-release": "^1.1.1",
     "husky": "7.0.4"
   }
