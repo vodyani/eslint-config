@@ -28,14 +28,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "local": "npm i && npx husky install",
-    "release": "npx semantic-release"
+    "local": "npm i && npx husky install"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "extends": "@vodyani/semantic-release"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -55,7 +51,6 @@
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
-    "@vodyani/semantic-release": "^1.1.1",
     "husky": "7.0.4"
   }
 }
