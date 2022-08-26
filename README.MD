@@ -1,6 +1,6 @@
 # Vodyani eslint-config
 
-*⚙ With a little preparation, the typescript eslint generic rules for vodyani may be readily integrated into projects.*
+⚙ vodyani eslint 通用规则，只需要简单的配置就可以很容易地集成到您的项目中。
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/eslint-config)](https://www.npmjs.com/package/@vodyani/eslint-config)
@@ -24,13 +24,6 @@ npm install --save-dev @vodyani/eslint-config
   }
 }
 ```
-
-## Dependencies
-
-- eslint `v8`
-- eslint-plugin-import `v2`
-- typescript-eslint/parser `v5`
-- typescript-eslint/eslint-plugin `v5`
 
 ## Team
 
