@@ -37,16 +37,10 @@
     "extends": "@commitlint/config-conventional"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.19.0",
-    "@typescript-eslint/parser": "5.19.0",
-    "eslint": "8.13.0",
-    "eslint-plugin-import": "^2.25.4"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.19.0",
-    "@typescript-eslint/parser": "5.19.0",
-    "eslint": "8.13.0",
-    "eslint-plugin-import": "^2.25.4"
+    "@typescript-eslint/eslint-plugin": "5.36.0",
+    "@typescript-eslint/parser": "5.36.0",
+    "eslint": "8.23.0",
+    "eslint-plugin-import": "2.26.0"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
